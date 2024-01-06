@@ -31,11 +31,11 @@ function init_git() {
 
 function install_personal_apps() {
     # install setapp
-    brew cask install setapp
+     brew install --cask setapp
     open "$(find /usr/local/Caskroom/setapp/ -name "*.app")"
 
     # install google drive file stream
-    # brew cask install google-drive-file-stream
+    #  brew install --cask google-drive-file-stream
 }
 
 function setup_mysql() {
@@ -60,7 +60,7 @@ function handle_person_profile() {
 }
 
 function install_karabiner() {
-    brew cask install karabiner-elements
+     brew install --cask karabiner-elements
 }
 
 # Write script you want to use in the `if` block
